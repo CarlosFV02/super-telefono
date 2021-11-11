@@ -57,4 +57,11 @@ public class Telefono{
     public void setApp(App nombreNuevoApp) {
         app = nombreNuevoApp;
     }
+    
+    /**
+    * Imprime detalles del teléfono
+    */
+    public void imprimirDetalles() {
+    System.out.println("Marca del teléfono: " + marca + " / Porcentaje batería: " + bateria + " / App: " + app);
+    }
 }

@@ -12,4 +12,32 @@ public class App{
         nombre = nombreApp;
         tipo = tipoSerie;
     }
+    
+    /**
+     * Devuelve el nombre de la app
+     */
+    public String getNombre() {
+        return nombre;
+    }   
+    
+    /**
+     * Devuelve el tipo de la app
+     */
+    public String getTipo() {
+        return tipo;
+    }  
+
+     /**
+     * Establece el nombre de la app
+     */
+    public void setNombre(String nombreApp) {
+        nombre = nombreApp;
+    }   
+    
+    /**
+     * Establece el tipo de la app
+    */
+    public void setTipo(String tipoApp) {
+        tipo = tipoApp;
+    }  
 }

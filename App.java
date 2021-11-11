@@ -40,4 +40,11 @@ public class App{
     public void setTipo(String tipoApp) {
         tipo = tipoApp;
     }  
+    
+    /**
+    * Imprime detalles app
+    */
+    public void imprimirDetalles() {
+    System.out.println("Nombre de la app: " + nombre + " / Tipo de la app: " + tipo);
+    }
 }
